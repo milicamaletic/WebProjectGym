@@ -1,0 +1,94 @@
+body {
+    background-image: url('gym2.jpg');
+}
+
+.clan{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(14, 9, 9, 0.219);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin:5px;
+}
+.clan:hover{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(14, 9, 9, 0.219);
+    border-radius: 5px;
+    background-color: rgba(194, 194, 194, 0.15);  
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin:5px;
+}
+.radnik{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(14, 9, 9, 0.219);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .15);  
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin:5px;
+}
+.radnik:hover{
+    display: flex;
+    flex-direction: column;
+    border: 5px solid rgba(14, 9, 9, 0.219);
+    border-radius: 5px;
+    background-color: rgba(194, 194, 194, 0.15);  
+    backdrop-filter: blur(5px);
+    padding: 10px;
+    margin:5px;
+}
+
+.teretana{
+    display: flex;
+    flex-direction: column;
+}
+.dole{
+    display: flex;
+    flex-direction: row;
+}
+.clanoviSve{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.clanovi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.radniciSve{
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+.radnici{
+    display: flex;
+    flex-wrap: wrap;
+}
+.formaDodaj, .formaBrisi{
+    display: flex;
+    flex-direction: column;
+}
+.dugmici{
+    display: flex;
+    margin-top: 5px;
+}
+.dugmeIzmeni{
+    flex: 1;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color:rgba(0, 250, 154, 0.596);
+}
+.dugmeS{
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color:rgba(223, 39, 39, 0.596);
+
+}
